@@ -1,4 +1,9 @@
 /* Initial Formatting */
+* {
+ margin: 0;
+ padding: 0;
+ box-size: border-box;
+
 body {
   background-color: rgb(26, 26, 26);
 }
