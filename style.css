@@ -35,6 +35,14 @@ p {
   color: white;
 }
 
+a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: normal;
+  color: white;
+}
+
 /* Image Formatting */
 img {
   display: block;
