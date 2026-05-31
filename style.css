@@ -62,3 +62,13 @@ img {
   justify-content: center;
   padding: 10px;
 }
+
+/* Linkslist Formatting */
+.linkslist {
+  display: flex;
+  flex-direction: center;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
