@@ -49,6 +49,7 @@ img {
 .main-content {
   display: block;
   align-items: center;
+  text-align: center;
   justify-content: center;
   padding: 10px;
 }
