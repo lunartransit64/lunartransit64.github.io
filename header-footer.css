@@ -46,3 +46,13 @@ nav a {
  text-decoration: none;
  color: orange;
 }
+
+/* Footer Formatting */
+.website-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-top: 5px solid orange;
+}
