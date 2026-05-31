@@ -16,6 +16,7 @@ body {
 h0 {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
+  font-size: 2.5rem;
   font-style: italic;
   color: orange;
 }
@@ -23,6 +24,7 @@ h0 {
 h1 {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
+  font-size: 2rem;
   font-style: normal;
   color: orange;
 }
@@ -30,6 +32,7 @@ h1 {
 p {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
+  font-size: 1rem;
   font-style: normal;
   color: white;
 }
