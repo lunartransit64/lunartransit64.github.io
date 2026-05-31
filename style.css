@@ -12,6 +12,12 @@ body {
   border-bottom: 5px solid orange;
 }
 
+.header-picture {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
 /* Text Formatting */
 h0 {
   font-family: "Nunito", sans-serif;
