@@ -66,7 +66,7 @@ img {
 /* Linkslist Formatting */
 .linkslist {
   display: flex;
-  flex-direction: center;
+  flex-direction: column;
   gap: 10px;
   text-align: center;
   justify-content: center;
