@@ -1,15 +1,26 @@
+/* Initial Formatting */
 body {
   background-color: rgb(26, 26, 26);
 }
 
-h1 {
+/* Header Formatting */
+.website-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 5px solid orange;
+}
+
+/* Text Formatting */
+h0 {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-style: italic;
   color: orange;
 }
 
-h2 {
+h1 {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-style: normal;
