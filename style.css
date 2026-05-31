@@ -12,10 +12,19 @@ body {
 /* Header Formatting */
 .website-header {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 10px;
   border-bottom: 5px solid orange;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
 }
 
 .header-picture {
@@ -26,6 +35,7 @@ body {
 
 /* Text Formatting */
 h0 {
+  display: block;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 3rem;
