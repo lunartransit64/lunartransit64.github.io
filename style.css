@@ -64,7 +64,7 @@ img {
 }
 
 /* Linkslist Formatting */
-.linkslist {
+.textlist {
   display: flex;
   flex-direction: column;
   gap: 10px;
