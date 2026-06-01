@@ -24,6 +24,7 @@ h1 {
   font-weight: 700;
   font-size: 2rem;
   font-style: normal;
+  max-width: 750px;
   color: orange;
 }
 
@@ -32,6 +33,7 @@ p {
   font-weight: 400;
   font-size: 1rem;
   font-style: normal;
+  max-width: 750px;
   color: white;
 }
 
@@ -41,6 +43,7 @@ a {
   font-size: 1rem;
   font-style: normal;
   text-decoration: none;
+  max-width: 750px;
   color: lightblue;
 }
 
