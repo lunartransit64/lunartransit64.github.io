@@ -69,9 +69,17 @@ img {
   height: 300px;
 }
 
-/* Square Picture */
-.fullscreen-picture {
+/* 16:9 Picture */
+.widescreen-picture {
   max-width: 750px;
+  min-width: 300px;
+  width: 50%;
+  height: auto;
+}
+
+/* 4:3 Picture */
+.fullscreen-picture {
+  max-width: 650px;
   min-width: 300px;
   width: 50%;
   height: auto;
