@@ -79,7 +79,7 @@ img {
 
 /* 4:3 Picture */
 .fullscreen-picture {
-  max-width: 650px;
+  max-width: 600px;
   min-width: 300px;
   width: 50%;
   height: auto;
