@@ -1,6 +1,9 @@
 # lunartransit.github.io
 This is my website that I am working on.
 
+- ✅ Projects Page (4/6/2026)
+- ✅ Index Page (4/6/2026)
+- ✅ Blog Page (1/6/2026)
 - ✅ About me Page (1/6/2026)
 - ✅ 404 Page (31/5/2026)
 - ✅ Footer Formatting (31/5/2026)
