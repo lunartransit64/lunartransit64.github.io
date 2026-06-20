@@ -2,9 +2,14 @@
 document.addEventListener("click", function(event) {
   // DEBUG
   console.log(event.target);
+
+  // Find correct Image
+  const isImg = event.target.tagName === "IMG";
+  const isNotLightbox = event.target.id !== "lightbox-img";
+  const isInMainContent = event.target.closest(".main-content");
   
   // If click is on an image
-  if (event.target.tagName === "IMG" && event.target.id !== "lightbox-img") {
+  if isImg && isInMainContent && isNotLightbox {
     console.log(event.target.src);
     
     // Show the Lightbox
