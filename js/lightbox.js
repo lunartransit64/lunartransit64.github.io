@@ -9,7 +9,7 @@ document.addEventListener("click", function(event) {
   const isInMainContent = event.target.closest(".main-content");
   
   // If click is on an image
-  if isImg && isInMainContent && isNotLightbox {
+  if (isImg && isInMainContent && isNotLightbox) {
     console.log(event.target.src);
     
     // Show the Lightbox
