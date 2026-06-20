@@ -1,6 +1,7 @@
 # lunartransit.github.io
 This is my website that I am working on.
 
+- ✅ Lightbox for Images (20/6/2026)
 - ✅ Projects Page (4/6/2026)
 - ✅ Index Page (4/6/2026)
 - ✅ Blog Page (1/6/2026)
