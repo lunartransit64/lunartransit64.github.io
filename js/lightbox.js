@@ -4,7 +4,7 @@ document.addEventListener("click", function(event) {
   console.log(event.target);
   
   // If click is on an image
-  if (event.target.TagName === "IMG" && event.target.id !== "lightbox-img") {
+  if (event.target.tagName === "IMG" && event.target.id !== "lightbox-img") {
     console.log(event.target.src);
     
     // Show the Lightbox
