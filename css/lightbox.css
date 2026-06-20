@@ -21,7 +21,7 @@
   display: block;
   position: absolute;
   justify-content: centre;
-  width: auto;
-  height: auto;
+  max-width: 80vw;
+  max-height: 50vh;
   z-index: 101;
 }
