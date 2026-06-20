@@ -3,7 +3,7 @@ document.addEventListener("click", function(event) {
   // DEBUG
   console.log(event.target);
 
-  // Find correct Image
+  // Find correct Image from click
   const isImg = event.target.tagName === "IMG";
   const isNotLightbox = event.target.id !== "lightbox-img";
   const isInMainContent = event.target.closest(".main-content");
@@ -20,6 +20,11 @@ document.addEventListener("click", function(event) {
 
     // Show Alt text as description
     document.getElementById("lightbox-txt").textContent = event.target.alt;
+  }
+
+  // Open image in new tab if lightbox is already rendered
+  if (event-target-id === "lightbox-img") {
+    window.open(event.target.src, '_blank');
   }
 });
 
