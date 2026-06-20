@@ -23,7 +23,7 @@ document.addEventListener("click", function(event) {
   }
 
   // Open image in new tab if lightbox is already rendered
-  if (event-target-id === "lightbox-img") {
+  if (event.target.id === "lightbox-img") {
     window.open(event.target.src, '_blank');
   }
 });
