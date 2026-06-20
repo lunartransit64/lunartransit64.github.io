@@ -33,6 +33,7 @@
 
 #lightbox-txt {
   display: block;
+  position: absolute;
   text-align: center;
   max-width: 80vh;
   top: 90vh;
