@@ -1,7 +1,7 @@
 // Open Lightbox
 document.addEventListener("click", function(event) {
   // DEBUG
-  console.log("event.target);
+  console.log(event.target);
   
   // If click is on an image
   if (event.target.TagName === "IMG" && event.target.id !== "lightbox-img") {
