@@ -26,6 +26,17 @@ document.addEventListener("click", function(event) {
   if (event.target.id === "lightbox-img") {
     window.open(event.target.src, '_blank');
   }
+
+  // Close if Lightbox background is clicked
+  if (event.target.id === "lightbox-bg")  {
+    CloseLightbox();
+  }
+});
+
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") {
+    CloseLightbox();
+  }
 });
 
 // Close Lightbox
