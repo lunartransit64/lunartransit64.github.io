@@ -21,6 +21,7 @@
   display: block;
   position: absolute;
   justify-content: centre;
-  top: 50%;
-  left: 50%;
+  width: auto;
+  height: auto;
+  z-index: 101;
 }
