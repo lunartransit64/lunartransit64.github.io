@@ -26,3 +26,8 @@ dropdown.addEventListener('change', (event) => {
     bloglist.appendChild(link);
   });
 });
+
+function convertToDate(dateString) {
+  const [day, month, year] = dateString.split('/').map(number);
+  return new Date(year, month -1, day);
+}
