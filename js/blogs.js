@@ -9,7 +9,7 @@ dropdown.addEventListener('change', (event) => {
   links.sort((a, b) => {
     // Find date of text
     const dateA = a.innerText.split(' - ')[1];
-    const dateB = a.innerText.split(' - ')[1];
+    const dateB = b.innerText.split(' - ')[1];
     const JdateA = convertToDate(dateA);
     const JdateB = convertToDate(dateB);
 
@@ -28,6 +28,6 @@ dropdown.addEventListener('change', (event) => {
 });
 
 function convertToDate(dateString) {
-  const [day, month, year] = dateString.split('/').map(number);
+  const [day, month, year] = dateString.split('/').map(Number);
   return new Date(year, month -1, day);
 }
