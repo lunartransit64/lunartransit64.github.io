@@ -22,7 +22,7 @@ dropdown.addEventListener('change', (event) => {
   });
 
   // Show on page
-  links.fromEach(link = > {
+  links.fromEach(link => {
     bloglist.appendChild(link);
   });
 });
