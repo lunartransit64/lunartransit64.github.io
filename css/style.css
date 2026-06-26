@@ -53,6 +53,28 @@ a {
   color: lightblue;
 }
 
+label {
+ font-family: "Nunito", sans-serif;
+ font-weight: 700;
+ font-size: 1.1rem;
+ font-style: normal;
+ text-decoration: none;
+ max-width: 750px;
+ margin-left: auto;
+ margin-right: auto;
+ color: orange;
+}
+
+#sort-by {
+ font-family: "Nunito", sans-serif;
+ font-weight: 400;
+ font-size: 1rem;
+ border-radius: 20px;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: orange;
+ color: black;
+}
 /* Image Formatting */
 img {
   display: block;
