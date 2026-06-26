@@ -14,9 +14,9 @@ dropdown.addEventListener('change', (event) => {
       const titleB = b.innerText.split(' - ')[0].toLowerCase();
 
       if (value === "atoz") {
-        return titleA = titleA.localeCompare(titleB); // A to Z
+        return titleA.localeCompare(titleB); // A to Z
       } else {
-        return titleA = titleB.localeCompare(titleA); // Z to A
+        return titleB.localeCompare(titleA); // Z to A
       }
     }
     
