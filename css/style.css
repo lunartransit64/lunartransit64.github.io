@@ -77,6 +77,14 @@ img {
   height: auto;
 }
 
+/* 16:9 Picture */
+.portrait-picture {
+  max-width: 500px;
+  min-width: 300px;
+  width: 50%;
+  height: auto;
+}
+
 /* 4:3 Picture */
 .fullscreen-picture {
   max-width: 600px;
