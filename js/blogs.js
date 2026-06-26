@@ -8,8 +8,8 @@ dropdown.addEventListener('change', (event) => {
 
   links.sort((a, b) => {
     // Find date of text
-    const dateA = a.InnerText.split(' - ');
-    const dateB = a.InnerText.split(' - ');
+    const dateA = a.innerText.split(' - ')[1];
+    const dateB = a.innerText.split(' - ')[1];
     const JdateA = convertToDate(dateA);
     const JdateB = convertToDate(dateB);
 
@@ -22,7 +22,7 @@ dropdown.addEventListener('change', (event) => {
   });
 
   // Show on page
-  links.fromEach(link => {
+  links.forEach(link => {
     bloglist.appendChild(link);
   });
 });
