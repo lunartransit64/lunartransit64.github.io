@@ -4,7 +4,7 @@ const bloglist = document.querySelector('.linkslist');
 dropdown.addEventListener('change', (event) => {
   const value = event.target.value;
 
-  const links  Array.from(bloglist.querySelectorAll('a'));
+  const links = Array.from(bloglist.querySelectorAll('a'));
 
   links.sort((a, b) => {
     // Find date of text
