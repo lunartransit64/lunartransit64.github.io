@@ -1,5 +1,5 @@
 const dropdown = document.getElementById('sort-by');
-const bloglist = document.querySelector('.linkslist');
+const bloglist = document.querySelector('.linklist');
 
 dropdown.addEventListener('change', (event) => {
   const value = event.target.value;
