@@ -16,7 +16,7 @@ dropdown.addEventListener('change', (event) => {
       if (value === "atoz") {
         return titleA = titleA.localeCompare(titleB); // A to Z
       } else {
-        return titleA = titleA.localeCompare(titleA); // Z to A
+        return titleA = titleB.localeCompare(titleA); // Z to A
       }
     }
     
