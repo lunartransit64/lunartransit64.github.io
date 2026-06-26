@@ -7,6 +7,20 @@ dropdown.addEventListener('change', (event) => {
   const links = Array.from(bloglist.querySelectorAll('a'));
 
   links.sort((a, b) => {
+    // Alphabetical Sorting
+    if (value === "atoz" || value === "ztoa") {
+      // Find Title
+      const titleA = a.innerText.split(' - ')[0].toLowerCase();
+      const titleB = b.innerText.split(' - ')[0].toLowerCase();
+
+      if (value === "atoz") {
+        return titleA = titleA.localeCompare(titleB); // A to Z
+      } else {
+        return titleA = titleA.localeCompare(titleA); // Z to A
+      }
+    }
+    
+    // Date Sorting
     // Find date of text
     const dateA = a.innerText.split(' - ')[1];
     const dateB = b.innerText.split(' - ')[1];
@@ -15,9 +29,9 @@ dropdown.addEventListener('change', (event) => {
 
     // Sort through Dates
     if (value === 'newtoold') {
-      return JdateB - JdateA;
+      return JdateB - JdateA; // New to Old
     } else {
-      return JdateA - JdateB;
+      return JdateA - JdateB; // Old to New
     }
   });
 
