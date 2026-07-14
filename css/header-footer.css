@@ -64,6 +64,14 @@ nav a {
  max-width: 750px;
 }
 
+.blog-pagination prevblog {
+ text-align: left;
+}
+
+.blog-pagination nextblog {
+ text-align: right;
+}
+
 /* Footer Formatting */
 .website-footer {
   display: flex;
