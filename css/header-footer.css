@@ -67,18 +67,16 @@ nav a {
  text-decoration: none;
  color: orange;;
  max-width: 750px;
+ margin-left: 0;
+ margin-right: 0;
 }
 
 .blog-pagination prevblog {
  text-align: left;
- margin-left: 0;
- margin-right: 0;
 }
 
 .blog-pagination nextblog {
  text-align: right;
- margin-left: 0;
- margin-right: 0;
 }
 
 /* Footer Formatting */
