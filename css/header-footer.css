@@ -47,7 +47,23 @@ nav a {
  color: orange;
 }
 
-.blog-pagenation
+/* Blog Pagination Formatting */
+.blog-pagination {
+ display: flex;
+ justify-content: space-between;
+ max-width: 750px;
+}
+
+.blog-pagination a {
+ font-family: "Nunito", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 1.2em;
+ text-decoration: none;
+ color: orange;;
+ max-width: 750px;
+}
+
 /* Footer Formatting */
 .website-footer {
   display: flex;
