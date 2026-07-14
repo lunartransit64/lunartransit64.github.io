@@ -72,10 +72,12 @@ nav a {
 .blog-pagination prevblog {
  text-align: left;
  margin-left: 0;
+ margin-right: 0;
 }
 
 .blog-pagination nextblog {
  text-align: right;
+ margin-left: 0;
  margin-right: 0;
 }
 
