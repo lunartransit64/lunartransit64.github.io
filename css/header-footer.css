@@ -51,6 +51,8 @@ nav a {
 .blog-pagination {
  display: flex;
  justify-content: space-between;
+ align-items: centre;
+ margin: 0 auto;
  padding: 10px;
  max-width: 750px;
  border-top: 5px solid orange;
