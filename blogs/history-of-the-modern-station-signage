@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Lunar Transit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/header-footer.css">
+
+  <!-- Nunito Font Sources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="website-header">
+   <div class="header-title">
+     <img src="/assets/favicon.png" alt="Profile Picture" class="header-picture">
+     <h0>Lunar Transit</h0>
+   </div>
+   <nav>
+     <a href="/index.html">Home</a>
+     <a href="/projects.html">Projects</a>
+     <a href="/blogs.html">Blogs</a>
+     <a href="/about.html">About</a>
+   </nav>
+ </header>
+  
+ <div class="main-content">
+   <h1>Welcome to my website!</h1>
+   <p>Monday, 1 June 2026</p>
+   <br>
+   <p>Greetings! I guess this is my first blog.</p>
+   <br>
+   <p>Some of the first prototypes of the modern signage appeared at Flinders Street in late-2017 as part of the Flinders Street station update being prototype direction signage. From there, the design evolved in 2018 and 2019 to the style simular to today. In July 2020, the first station (from what I know of) outside of Flinders Street received the new signage being Mentone station as apart of the Level Crossing Removal Project. From there, only new stations or stations getting upgrades received the new signage. The design partially changed in 2024 with the removal of the PTV logo, and then in 2025 with the addition of the Transport Victoria logo.</p>
+   <br>
+   <p>In June and July 2026, for the first time stations that were not receiving upgrades or are major interchanges received the new platform signage. This included Newport, Williamstown, Sandringham, Prahran and Werribee. More stations are set to receive new signage in the coming months and years</p>
+   <br>
+   <div class="blog-pagination">
+      <a class="prevblog" href="/blogs.html">&lt Blogs</a>
+      <a class="nextblog" href="/blogs/newport-open-day-2024.html">Newport Open Days 2024 &gt</a>
+   </div>
+   <br>
+ </div>
+  
+ <footer class="website-footer">
+   <a href="#top">Back to top</a>
+   <p>© lunartransit 2021-2026 | <a href="/copyright.html">Copyright</a></p>
+ </footer>
+
+
+</body>
+</html>
