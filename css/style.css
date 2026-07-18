@@ -70,7 +70,8 @@ th {
  font-size: 1rem;
  font-style: normal;
  text-decoration: none;
- border: 1px white;
+ padding: 5px;
+ border: 1px solid white;
 }
  
 label {
