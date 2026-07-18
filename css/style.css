@@ -62,7 +62,6 @@ table {
  justify-content: center;
  margin-left: auto;
  margin-right: auto;
- border: 1px white;
 }
 
 th {
@@ -71,6 +70,7 @@ th {
  font-size: 1rem;
  font-style: normal;
  text-decoration: none;
+ border: 1px white;
 }
  
 label {
