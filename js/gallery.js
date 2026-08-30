@@ -22,6 +22,10 @@ document.addEventListener("DOMContentLoaded", () => {
       img.alt = item.alt || "";
       img.loading = "lazy";
 
+      if (item.class) {
+        img.classList.add(item.class);
+      }
+      
       card.appendChild(img);
       
       // Album Check
