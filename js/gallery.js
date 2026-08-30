@@ -23,5 +23,11 @@ document.AddEventListener("DOMContentLoaded", () => {
 
       card.appendChild(img);
       
-
+      // Album Check
+      if (item.album) {
+        card.classList.add("albumItem");
+        card.dataset.album = item.album;
+      } else {
+        card.classList.add("StandardItem");
+        
           
