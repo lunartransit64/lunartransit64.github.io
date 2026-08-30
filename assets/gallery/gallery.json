@@ -2,8 +2,17 @@
   {
     "album": "newport-open-day-2024",
     "src": "/assets/gallery/newport-open-day-2024/picture1.jpg",
+    "class": "widescreen-picture",
     "alt": "L1160 in VLine Orange and Gray livery",
     "date": "9/3/2024",
     "time": "10:06am"
+  },
+  {
+    "album": "newport-open-day-2024",
+    "src": "/assets/gallery/newport-open-day-2024/picture2.jpg",
+    "class": "fullscreen-picture",
+    "alt": "A66 at the garden platform in VLine Orange and Gray livery<",
+    "date": "9/3/2024",
+    "time": "10:13am"
   }
 ]
