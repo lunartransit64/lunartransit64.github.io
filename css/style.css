@@ -19,6 +19,14 @@ h0 {
   color: orange;
 }
 
+h0 a {
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-decoration: inherit;
+}
+
 h1 {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
