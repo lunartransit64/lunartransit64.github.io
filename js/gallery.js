@@ -5,7 +5,7 @@ document.AddEventListener("DOMContentLoaded", () => {
 
   fetch("/assets/gallery/gallery.json")
     .then((response) => {
-        throw new Error('Failed to load gallery.json!'
+        throw new Error('Failed to load gallery.json!');
     }
     return response.json();
   })
