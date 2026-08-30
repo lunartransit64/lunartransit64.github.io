@@ -1,6 +1,7 @@
 /* Gallery Grid */
 .gallery {
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 10px;
   padding: 10px;
   max-width: 90vw;
@@ -15,7 +16,12 @@
 .gallery-item img {
   display: block;
   width: 100%;
-  max-height: 50px;
+  height: 220px;
   object-fit: cover;
+  transition: transform 0.2 ease-in-out;
 }
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+  
   
