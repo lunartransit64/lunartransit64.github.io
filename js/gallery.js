@@ -1,24 +1,25 @@
-document.AddEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
   const gallery = document.querySelector(".gallery");
 
   if (!gallery) return;
 
   fetch("/assets/gallery/gallery.json")
     .then((response) => {
+      if (!response.ok) { 
         throw new Error('Failed to load gallery.json!');
-    }
-    return response.json();
+      }
+      return response.json();
   })
   .then((items) => {
-    items.forEach((item) = {
+    items.forEach((item) => {
       // Create Card
-      const card = document.CreateElement("div");
+      const card = document.createElement("div");
       card.classList.add("gallery-item");
 
       // Add Image
-      const img = document.CreateElement("img");
+      const img = document.createElement("img");
       img.src = item.src;
-      img.alt = item.alt;
+      img.alt = item.alt || "";
       img.loading = "lazy";
 
       card.appendChild(img);
@@ -29,5 +30,15 @@ document.AddEventListener("DOMContentLoaded", () => {
         card.dataset.album = item.album;
       } else {
         card.classList.add("StandardItem");
+      }
+
+      gallery.appendChild(card);
+    });
+  })
+  .catch((err) => console.error(err));
+});
+
+      
+      
         
           
