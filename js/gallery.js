@@ -32,6 +32,10 @@ document.addEventListener("DOMContentLoaded", () => {
       if (item.album) {
         card.classList.add("albumItem");
         card.dataset.album = item.album;
+
+        if (item.date) img.dataset.date = item.date;
+        if (item.time) img.dataset.time = item.time;
+        
       } else {
         card.classList.add("StandardItem");
       }
