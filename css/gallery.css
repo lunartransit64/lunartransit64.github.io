@@ -1,16 +1,14 @@
 /* Gallery Grid */
 .gallery {
-  column-count: 4;
-  column-gap: 10px;
-  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   max-width: 90vw;
   margin: 0 auto;
 }
 
 /* Gallery Card */
 .gallery-item {
-  break-inside: avoid;
-  overflow: hidden;
   border-radius: 5px;
 }
 
@@ -18,12 +16,5 @@
   display: block;
   width: 100%;
   height: auto;
-}
-
-/* Smaller Size Screen */
-@media (max-width: 900px) {
-  .gallery {
-    column-count: 2;
-  }
 }
   
