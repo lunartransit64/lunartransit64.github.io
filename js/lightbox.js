@@ -1,8 +1,5 @@
 // Open Lightbox
 document.addEventListener("click", function(event) {
-  // DEBUG
-  console.log(event.target);
-
   // Find correct Image from click
   const isImg = event.target.tagName === "IMG";
   const isNotLightbox = event.target.id !== "lightbox-img";
@@ -10,8 +7,6 @@ document.addEventListener("click", function(event) {
   
   // If click is on an image
   if (isImg && isInMainContent && isNotLightbox) {
-    console.log(event.target.src);
-    
     // Show the Lightbox
     document.getElementById("lightbox").style.display = "block";
 
@@ -20,6 +15,18 @@ document.addEventListener("click", function(event) {
 
     // Show Alt text as description
     document.getElementById("lightbox-txt").textContent = event.target.alt;
+
+    // Date and Time (If Applicable)
+    const imgDate = event.target.dataset.date || "";
+    const imgTime = event.target.dataset.time || "";
+    
+    let metastring = "";
+    if (imgDate && imgTime) {
+      metastring = `${imgDate} | ${imgTime}`;
+    } else if (imgDate) {
+      metastring = imgDate;
+    }
+    
   }
 
   // Open image in new tab if lightbox is already rendered
