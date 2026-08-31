@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       info.innerHTML = `
         <p class="card-title">${item.alt || ""}</p>
-        <p class="card-meta">"${timeText || ""}</p>
+        <p class="card-meta">${timeText || ""}</p>
       `;
 
       card.appendChild(info);
