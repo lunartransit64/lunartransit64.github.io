@@ -26,7 +26,11 @@ document.addEventListener("click", function(event) {
     } else if (imgDate) {
       metastring = imgDate;
     }
-    
+
+    const metaElement = document.getElementById("lightbox-meta");
+    if (metaElement) {
+      metaElement.textContent = metastring;
+    }
   }
 
   // Open image in new tab if lightbox is already rendered
