@@ -45,10 +45,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       info.innerHTML = `
         <p class="card-title">${item.alt || ""}</p>
-        ${time.text}
+        <p class="card-meta">"${timeText || ""}</p>
       `;
 
-      card.AppendChild(info);
+      card.appendChild(info);
       
       // Album Check
       if (item.album) {
