@@ -2,16 +2,23 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 10px;
+  justify-content: center;
   max-width: 90vw;
   margin: 0 auto;
 }
 
 /* Gallery Card */
 .gallery-item {
+  display: flex;
+  flex: 1 1 220px;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 400px;
   border-radius: 5px;
 }
 
+/* Gallery Image */
 .gallery-item img {
   display: block;
   width: 100%;
