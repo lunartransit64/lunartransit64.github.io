@@ -11,10 +11,10 @@
 /* Gallery Card */
 .gallery-item {
   display: flex;
-  flex: 1 1 220px;
+  flex: 320px;
   flex-direction: column;
   overflow: hidden;
-  max-width: 400px;
+  max-width: 320px;
   border-radius: 5px;
 }
 
@@ -24,5 +24,5 @@
   width: 100%;
   height: auto;
   aspect-ratio: 4 / 3;
-  object-fit: contain;
+  object-fit: cover;
 }
