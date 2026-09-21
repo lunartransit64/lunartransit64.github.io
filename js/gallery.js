@@ -94,7 +94,22 @@ document.addEventListener("DOMContentLoaded", () => {
     if (albumParam) {
       albumSelect.value = albumParam;
       albumSelect.dispatchEvent(new Event("change"));
-    }   
+    }
+
+    window.addEventListener("popstate", () => {
+      const currentAlbum = new URLSearchParams(window.location.search).get("album") || "allalbums";
+      albumSelect.value = currentAlbum;
+
+      const cards = gallery.QuerySelectorAll(".gallery-item");
+      cards.forEach((card) => {
+        const cardAlbum = card.dataset.album
+        if (currentalbum === "allalbums" || (cardAlbum && cardAlbum.split(",").includes(currentalbum))) {
+          card.style.display = "";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    });
   })
   .catch((err) => console.error(err));
 });
