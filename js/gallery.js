@@ -60,6 +60,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
       gallery.appendChild(card);
     });
+    // Filtering
+    const albumSelect = document.getElementById('album-sort');
+
+    if (albumSelect)
+      albumSelect.addEventListener("change", (e) => {
+        const selectedAlbum = e.target.value;
+        const cards = gallery.querySelectorAll(".gallery-item");
+
+        cards.forEach((card) => {
+          const cardAlbum = card.dataset.album;
+
+          if (selectedAlbum === "allalbums" || cardAlbum === selectedAlbum) {
+            card.style.display = ""; // Shows item
+          } else {
+            card.style.display = "none"; // Hides item
+          }
+      });
+    });
   })
   .catch((err) => console.error(err));
 });
