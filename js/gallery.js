@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
         cards.forEach((card) => {
           const cardAlbum = card.dataset.album;
 
-          if (selectedAlbum === "allalbums" || cardAlbum === selectedAlbum) {
+          if (selectedAlbum === "allalbums" || (cardAlbum && cardAlbum.split(",").includes(selectedAlbum))) {
             card.style.display = ""; // Shows item
           } else {
             card.style.display = "none"; // Hides item
