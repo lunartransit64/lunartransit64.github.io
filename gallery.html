@@ -39,24 +39,25 @@
    <h1>Gallery</h1>
    <p>This page is still under construction. Please note that the images have been compressed, due to GitHub's 1GB storage limit. Thank you for understanding.</p>
    <br>
-   <div>
-     <label for="sort-by">Sort By: </label>
-     <select name="sort-by" id="sort-by">
-       <option value="newtoold">New to Old</option>
-       <option value="oldtonew">Old to New</option>
-       <option value="atoz">A to Z</option>
-       <option value="ztoa">Z to A</option>
-     </select>
-   </div>
-   <div>
-     <label for="album-sort">Album: </label>
-     <select name="album-sort" id="album-sort">
-       <option value="allalbum">All</option>
-       <option value="oldtonew">2024</option>
-       <option value="atoz">2025</option>
-       <option value="ztoa">2026</option>
-     </select>
-   </div>
+   <div class="gallery-sorting" style="display: flex; flex-direciton: row;">
+     <div>
+       <label for="sort-by">Sort By: </label>
+       <select name="sort-by" id="sort-by">
+         <option value="newtoold">New to Old</option>
+         <option value="oldtonew">Old to New</option>
+         <option value="atoz">A to Z</option>
+         <option value="ztoa">Z to A</option>
+       </select>
+     </div>
+     <div>
+       <label for="album-sort">Album: </label>
+        <select name="album-sort" id="album-sort">
+         <option value="allalbum">All</option>
+         <option value="oldtonew">2024</option>
+         <option value="atoz">2025</option>
+         <option value="ztoa">2026</option>
+       </select>
+     </div>
    <br>
    
    <div class="gallery">
