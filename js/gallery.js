@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const cards = gallery.querySelectorAll(".gallery-item");
       cards.forEach((card) => {
         const cardAlbum = card.dataset.album
-        if (currentalbum === "allalbums" || (cardAlbum && cardAlbum.split(",").includes(currentalbum))) {
+        if (currentAbum === "allalbums" || (cardAlbum && cardAlbum.split(",").includes(currentAlbum))) {
           card.style.display = "";
         } else {
           card.style.display = "none";
