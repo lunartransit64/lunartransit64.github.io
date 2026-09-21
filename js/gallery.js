@@ -71,9 +71,9 @@ document.addEventListener("DOMContentLoaded", () => {
         // Update URL
         const url = new URL(window.location);
         if (selectedAlbum === "allalbums") {
-          url.searchParamas.delete("album");
+          url.searchParams.delete("album");
         } else {
-          url.searchParamas.set("album", selectedAlbum);
+          url.searchParams.set("album", selectedAlbum);
         }
         window.history.pushState({}, "", url);
           
