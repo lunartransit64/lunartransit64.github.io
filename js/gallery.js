@@ -67,7 +67,17 @@ document.addEventListener("DOMContentLoaded", () => {
       albumSelect.addEventListener("change", (e) => {
         const selectedAlbum = e.target.value;
         const cards = gallery.querySelectorAll(".gallery-item");
-
+        
+        // Update URL
+        const url = new URL(window.location);
+        if (selectedAlbum === "allalbums") {
+          url.searchParamas.delete("album");
+        } else {
+          url.searchParamas.set("album", selectedAlbum);
+        }
+        window.history.pushState({}, "", url);
+          
+        // Filter Cards
         cards.forEach((card) => {
           const cardAlbum = card.dataset.album;
 
@@ -78,6 +88,13 @@ document.addEventListener("DOMContentLoaded", () => {
           }
       });
     });
+    const urlParams = new URLSearchParams(window.location.search);
+    const albumParam = urlParams.get("album");
+
+    if (albumParam) {
+      albumSelect.value = albumParam;
+      albumSelect.dispatchEvent(new Event("change"));
+    }   
   })
   .catch((err) => console.error(err));
 });
