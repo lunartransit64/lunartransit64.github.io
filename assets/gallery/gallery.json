@@ -1,6 +1,6 @@
 [
   {
-    "album": "newport-open-day-2024",
+    "album": ["newport-open-day-2024", "2024"],
     "src": "/assets/gallery/newport-open-day-2024/picture1.jpg",
     "class": "widescreen-picture",
     "alt": "L1160 in VLine Orange and Gray livery",
@@ -8,7 +8,7 @@
     "time": "10:06am"
   },
   {
-    "album": "newport-open-day-2024",
+    "album": ["newport-open-day-2024", "2024"],
     "src": "/assets/gallery/newport-open-day-2024/picture2.jpg",
     "class": "fullscreen-picture",
     "alt": "A66 at the garden platform in VLine Orange and Gray livery",
@@ -16,7 +16,7 @@
     "time": "10:13am"
   },
   {
-    "album": "newport-open-day-2024",
+    "album": ["newport-open-day-2024", "2024"],
     "src": "/assets/gallery/newport-open-day-2024/picture3.jpg",
     "class": "fullscreen-picture",
     "alt": "N473 at the garden platform in VLine PTV livery",
@@ -24,7 +24,7 @@
     "time": "10:14am"
   },
   {
-    "album": "newport-open-day-2024",
+    "album": ["newport-open-day-2024", "2024"],
     "src": "/assets/gallery/newport-open-day-2024/picture4.jpg",
     "class": "fullscreen-picture",
     "alt": "N473 drivers cabin",
@@ -32,7 +32,7 @@
     "time": "10:18am"
   },
   {
-    "album": "newport-open-day-2024",
+    "album": ["newport-open-day-2024", "2024"],
     "src": "/assets/gallery/newport-open-day-2024/picture5.jpg",
     "class": "fullscreen-picture",
     "alt": "VLocity 2211 exterior",
@@ -40,7 +40,7 @@
     "time": "10:36am"
   },
   {
-    "album": "newport-open-day-2024",
+    "album": ["newport-open-day-2024", "2024"],
     "src": "/assets/gallery/newport-open-day-2024/picture6.jpg",
     "class": "fullscreen-picture",
     "alt": "VLocity 2211 interior",
@@ -48,7 +48,7 @@
     "time": "10:27am"
   },
   {
-    "album": "newport-open-day-2024",
+    "album": ["newport-open-day-2024", "2024"],
     "src": "/assets/gallery/newport-open-day-2024/picture7.jpg",
     "class": "fullscreen-picture",
     "alt": "VLocity 2211 drivers cabin",
@@ -56,7 +56,7 @@
     "time": "10:34am"
   },
   {
-    "album": "newport-open-day-2024",
+    "album": ["newport-open-day-2024", "2024"],
     "src": "/assets/gallery/newport-open-day-2024/picture8.jpg",
     "class": "fullscreen-picture",
     "alt": "Various locomotives and steam trains",
@@ -64,7 +64,7 @@
     "time": "10:26am"
   },
   {
-    "album": "newport-open-day-2024",
+    "album": ["newport-open-day-2024", "2024"],
     "src": "/assets/gallery/newport-open-day-2024/picture9.jpg",
     "class": "fullscreen-picture",
     "alt": "R711 Snow Train",
@@ -72,7 +72,7 @@
     "time": "10:35am"
   },
   {
-    "album": "newport-open-day-2024",
+    "album": ["newport-open-day-2024", "2024"],
     "src": "/assets/gallery/newport-open-day-2024/picture10.jpg",
     "class": "fullscreen-picture",
     "alt": "T334 and T356",
@@ -80,7 +80,7 @@
     "time": "10:41am"
   },
   {
-    "album": "newport-open-day-2024",
+    "album": ["newport-open-day-2024", "2024"],
     "src": "/assets/gallery/newport-open-day-2024/picture11.jpg",
     "class": "fullscreen-picture",
     "alt": "Hitachi 298M",
@@ -88,7 +88,7 @@
     "time": "10:50am"
   },
   {
-    "album": "newport-open-day-2024",
+    "album": ["newport-open-day-2024", "2024"],
     "src": "/assets/gallery/newport-open-day-2024/picture12.jpg",
     "class": "fullscreen-picture",
     "alt": "Abandoned Hitachi's",
@@ -96,7 +96,7 @@
     "time": "11:13am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture1.jpg",
     "class": "widescreen-picture",
     "alt": "Ex-Ventura 339 (Scania L113CRB, Volgren) at Newport station rail replacement bay",
@@ -104,7 +104,7 @@
     "time": "9:30am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture2.jpg",
     "class": "portrait-picture",
     "alt": "A little history of ex-Ventura 558 (2005 MAN 15.220, Designline 'Citybus')",
@@ -112,7 +112,7 @@
     "time": "9:40am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture3.jpg",
     "class": "widescreen-picture",
     "alt": "Newport Workshops Open Days Sign",
@@ -120,7 +120,7 @@
     "time": "9:41am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture4.jpg",
     "class": "widescreen-picture",
     "alt": "Ex-Ventura 339 and Ex-Ventura 558 on Champion Road, Newport",
@@ -128,7 +128,7 @@
     "time": "9:41am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture5.jpg",
     "class": "widescreen-picture",
     "alt": "Harris Greaser Car 797M",
@@ -136,7 +136,7 @@
     "time": "10:04am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture6.jpg",
     "class": "widescreen-picture",
     "alt": "Harris Greaser Car 797M bogies",
@@ -144,7 +144,7 @@
     "time": "10:04am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture7.jpg",
     "class": "widescreen-picture",
     "alt": "Harris Greaser Car 794M",
@@ -152,7 +152,7 @@
     "time": "10:05am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture8.jpg",
     "class": "widescreen-picture",
     "alt": "L1169 in Apple TV 'Shantaram' livery",
@@ -160,7 +160,7 @@
     "time": "10:08am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture9.jpg",
     "class": "widescreen-picture",
     "alt": "L1162 in VR Livery",
@@ -168,7 +168,7 @@
     "time": "10:09am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture10.jpg",
     "class": "widescreen-picture",
     "alt": "4AZ (ex BTN454) interior",
@@ -176,7 +176,7 @@
     "time": "10:11am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture11.jpg",
     "class": "widescreen-picture",
     "alt": "X'Trapolis 2.0 8601 at the garden platform",
@@ -184,7 +184,7 @@
     "time": "10:15am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture12.jpg",
     "class": "widescreen-picture",
     "alt": "X'Trapolis 2.0 8601, 6502 and 8605",
@@ -192,7 +192,7 @@
     "time": "10:15am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture13.jpg",
     "class": "widescreen-picture",
     "alt": "Klondyke bogies",
@@ -200,7 +200,7 @@
     "time": "10:20am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture14.jpg",
     "class": "widescreen-picture",
     "alt": "R711 on the turnable and D3 369",
@@ -208,7 +208,7 @@
     "time": "10:20am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture15.jpg",
     "class": "widescreen-picture",
     "alt": "R711 and D3 369",
@@ -216,7 +216,7 @@
     "time": "10:22am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture16.jpg",
     "class": "widescreen-picture",
     "alt": "R711 in VR Blue and Gold",
@@ -224,7 +224,7 @@
     "time": "10:22am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture17.jpg",
     "class": "widescreen-picture",
     "alt": "R711 side-on",
@@ -232,7 +232,7 @@
     "time": "10:22am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture18.jpg",
     "class": "widescreen-picture",
     "alt": "R711 tender side-on",
@@ -240,7 +240,7 @@
     "time": "10:23am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture19.jpg",
     "class": "widescreen-picture",
     "alt": "R711 tender bogies",
@@ -248,7 +248,7 @@
     "time": "10:23am"
   },
   {
-    "album": "newport-open-day-2026",
+    "album": ["newport-open-day-2026", "2026"],
     "src": "/assets/gallery/newport-open-day-2026/picture20.jpg",
     "class": "widescreen-picture",
     "alt": "R711 valve gear and bogies",
