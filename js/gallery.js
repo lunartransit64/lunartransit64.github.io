@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const currentAlbum = new URLSearchParams(window.location.search).get("album") || "allalbums";
       albumSelect.value = currentAlbum;
 
-      const cards = gallery.QuerySelectorAll(".gallery-item");
+      const cards = gallery.querySelectorAll(".gallery-item");
       cards.forEach((card) => {
         const cardAlbum = card.dataset.album
         if (currentalbum === "allalbums" || (cardAlbum && cardAlbum.split(",").includes(currentalbum))) {
