@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lunar Transit</title>
+</head>
+
+<body>
+  <h1>Image Uploader</h1>
+  <div class="drop-zone" id="drop-zone">
+    <p>Drag and drop your images here or click to browse</p>
+    <input type="file" id="file-input" multiple accept="image/*">
+  </div>
+
+  <div class="image-preview" id="image-preview"></div>
+  <div class="code-preview" id="code-preview"></div>
+  
+  <button type="button">Download Image</button>
+  <button type="button">Download Code</button>
+
+  <script>
+    // 1. Grab elements from HTML
+    const dropZone = document.getElementById("drop-zone");
+    const fileInput = document.getElementById("file-input");
+
+    // 2. When dropzone is clicked, open file explorer/finder
+    dropZone.addEventListener("click", () => {
+      fileInput.click();
+    });
+
+    // 3. Stop the browser for opening in a new tab
+    ["dragenter", "dragover", "dragleave", "drop"].forEach((eventName) => {
+      dropZone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+      });
+    });
+
+    // 4. Handle file selected via finder/file explorer and drag and drop
+    fileInput.addEventListener("change", (e) => {
+      const files = e.target.files;
+      handleFiles(files);
+    });
+
+    dropZone.addEventListener("drop", (e) => {
+      const files = e.target.files;
+      handleFiles(files);
+    });
+
+    // 5. Upload Image
+    function handleFiles(files) {
+      console.log("Files received: ", files);
+    }
+    
+  </script>
+</body>
+
+</html>
