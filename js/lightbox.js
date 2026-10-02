@@ -16,17 +16,6 @@ document.addEventListener("click", function(event) {
     // Show Alt text as description
     document.getElementById("lightbox-txt").textContent = event.target.alt;
 
-    // Date and Time (If Applicable)
-    const imgDate = event.target.dataset.date || "";
-    const imgTime = event.target.dataset.time || "";
-    
-    let metastring = "";
-    if (imgDate && imgTime) {
-      metastring = `${imgDate} | ${imgTime}`;
-    } else if (imgDate) {
-      metastring = imgDate;
-    }
-
     const metaElement = document.getElementById("lightbox-meta");
     if (metaElement) {
       metaElement.textContent = metastring;
